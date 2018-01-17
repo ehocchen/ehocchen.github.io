@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>程序 on 静思谈</title>
+    <link>http://ehocchen.github.io/tags/%E7%A8%8B%E5%BA%8F/</link>
+    <description>Recent content in 程序 on 静思谈</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <copyright>ehocchen All rights reserved.</copyright>
+    <lastBuildDate>Sun, 13 Jul 2014 23:45:03 +0000</lastBuildDate>
+    
+	<atom:link href="http://ehocchen.github.io/tags/%E7%A8%8B%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>程序设计之吐槽及乱弹</title>
+      <link>http://ehocchen.github.io/post/2014-07-13-01/</link>
+      <pubDate>Sun, 13 Jul 2014 23:45:03 +0000</pubDate>
+      
+      <guid>http://ehocchen.github.io/post/2014-07-13-01/</guid>
+      <description>背景 最近在看工作中涉及的代码，突然深刻体会到KISS（keep it simple and stupid）原来是如此的有道理。
+当前看的这份代码设计不能不说强大，同一件事情会为你准备3种的方案，然而就会发现一个问题：我只不过需要钉个钉子，你给我那么多的锤子干甚？更过分的是，有时候还需要这些个锤子相互配合。Life is so tough, why make it easier?
+以前没觉得KISS原则的精妙，现在不得不奉为前几大原则之一。
+程序的三歩舞 把程序分解为三个部分：接口；粘合逻辑；核心算法。这三者从程序设计和实现上的要求是不一样的：接口需要绝对的简单和易于理解；粘合逻辑要易于理解，可有适当的技巧；核心算法是力争简洁。
+对于一个程序来说，大多数人只会接触接口，少部分人需要理解粘合逻辑，仅有极少数人有必要去阅读核心算法。
+以前的我在阅读代码时，总对花哨而高超的实现技巧而特别注意，觉得作者真是将语言的精髓运行得炉火纯青，不得不佩服。现在却越来越觉得，代码的易读性才是一个代码生命力的体现。
+想想现在每天产生的多少代码，不论是闭源的还是开源的，然而当3年过去后，还有多少代码是仍然有用的？也许不过是20%罢了。时间再长一点，大部分的代码都变成了无意义的电子符号，尘封在浩瀚的电子世界里。
+对代码中高超深奥的编码技巧的追求也许是技术人员对于技术的精妙的一次绝佳的炫耀。不得不承认，自己也常常有这种念头。然而，对于技术人员来说，霍金的“每多一个公式，就会吓跑一半读者”也许同样适用。过于“酷炫吊炸天”的技巧其实是在自己的精力以及赶跑自己的读者，是在自我缩小影响力。
+接口设计的原则 参考： - API Design - 来自HeroKu的HTTP API 设计指南(中文版)</description>
+    </item>
+    
+  </channel>
+</rss>

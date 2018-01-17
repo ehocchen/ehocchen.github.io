@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>计划 on 静思谈</title>
+    <link>http://ehocchen.github.io/categories/%E8%AE%A1%E5%88%92/</link>
+    <description>Recent content in 计划 on 静思谈</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <copyright>ehocchen All rights reserved.</copyright>
+    <lastBuildDate>Wed, 04 Feb 2015 19:31:33 +0000</lastBuildDate>
+    
+	<atom:link href="http://ehocchen.github.io/categories/%E8%AE%A1%E5%88%92/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>golang练习项目：并行远程执行</title>
+      <link>http://ehocchen.github.io/post/2015-02-04-01/</link>
+      <pubDate>Wed, 04 Feb 2015 19:31:33 +0000</pubDate>
+      
+      <guid>http://ehocchen.github.io/post/2015-02-04-01/</guid>
+      <description>最近偶尔重新看了看golang语言，似乎又有了更清醒点的认识了。
+一直都只是在看语法，看相关的书籍、文章，觉得还是实际从头写点代码练习练习来得比较好。
+接触golang是很早很早之前的事了，当时就把go tour基础部分练了练，如今仍然生疏。觉得自己存在一个误区是，总想一开始就依照最优雅的方式去写，比如golang就要用最golang风格的代码样式去写，pytho就要完全python风格的，似乎有点完美主义了吧，非适应性完美主义，阻碍了自己去动手实践。
+实际是可以一边练习，逐步去改进的。一边写一边重构，才应该是正确的练习方式。done is better than perfect.
+这个并行远程执行其实是实际应用中经常需要登录到多台机器上批量执行命令，之前也有挺多的实现方式的，比如shell脚本，python脚本，以及一些专门的部署工具如fabirc，ansible等
+作为一个练习项目，目前仅做做基本的功能。It&amp;rsquo;s just a start.
+主要功能如下： - 命令行方式执行 - 命令行可指定欲执行的命令，如shell指令 - 可从文件中读取批量命令执行 - 可配置多个目标机器 - ssh方式登录 - (options)目标机器存储在配置文件中，配置文件格式使用TOML？
+参考： 1. TOML介绍。http://segmentfault.com/a/1190000000477752</description>
+    </item>
+    
+    <item>
+      <title>2015年一些个人学习计划</title>
+      <link>http://ehocchen.github.io/post/2015-01-08-01/</link>
+      <pubDate>Thu, 08 Jan 2015 22:58:02 +0000</pubDate>
+      
+      <guid>http://ehocchen.github.io/post/2015-01-08-01/</guid>
+      <description> 一 2015年这个静态博客好好的整理整理，工作上节奏需要调整调整，该多花点时间进行整理总结。
+目前计划以下几个方面做一做，也主要是之前有所涉及，现在总结整理下：
+- shell相关。对一般工作中常使用到的shell知识做一个整理，如基本的逻辑控制、运算、文件操作、命令行参数、简单的多进程等，目前的想法是部分采用示例，部分或许能在整理在自己的github上，形成易使用的函数库，方便自己以后的使用。
+ 网络交换方面的基础知识，如vlan、L2、L3基本处理逻辑之类的，这个主要是给自己看，有时不认真想想，想不清楚，想清楚了，过段时间也模糊了，还是一个字一个字的敲一遍印象比较深。这也许就是笨办法吧。
+ xorp软件架构方面的整理。两方面的目的，一是学习xorp中的一些实现及设计方式，二是尝试将其中一些库看能否抽离出来给自己以后使用，也是学习加深印象。目前有些方面看能不能贡献到xorp。
+ SSL/TLS方面的理解。不是重点，原因是自己的精力不够。
+ SDN方面保持关注。可能一些东西以转载、链接的方式做一个记录吧。
+  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Centos on 静思谈</title>
+    <link>http://ehocchen.github.io/tags/centos/</link>
+    <description>Recent content in Centos on 静思谈</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <copyright>ehocchen All rights reserved.</copyright>
+    <lastBuildDate>Wed, 06 May 2015 10:44:39 +0000</lastBuildDate>
+    
+	<atom:link href="http://ehocchen.github.io/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CentOS配置NFS</title>
+      <link>http://ehocchen.github.io/post/2015-05-06-01/</link>
+      <pubDate>Wed, 06 May 2015 10:44:39 +0000</pubDate>
+      
+      <guid>http://ehocchen.github.io/post/2015-05-06-01/</guid>
+      <description> 安装配置 客户端mount出错  </description>
+    </item>
+    
+  </channel>
+</rss>

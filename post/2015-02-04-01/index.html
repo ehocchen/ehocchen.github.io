@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.31" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="静思谈">
+<title>golang练习项目：并行远程执行 - 静思谈</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/"><img src="" width="60" height="60" alt="静思谈"></a>
+		</div>
+		
+	</header>
+
+
+	<main role="main">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">golang练习项目：并行远程执行</h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="2015-02-04">February 04, 2015</time></span>
+			<section itemprop="entry-text">
+				<p>最近偶尔重新看了看golang语言，似乎又有了更清醒点的认识了。<br />
+一直都只是在看语法，看相关的书籍、文章，觉得还是实际从头写点代码练习练习来得比较好。<br />
+接触golang是很早很早之前的事了，当时就把go tour基础部分练了练，如今仍然生疏。觉得自己存在一个误区是，总想一开始就依照最优雅的方式去写，比如golang就要用最golang风格的代码样式去写，pytho就要完全python风格的，似乎有点完美主义了吧，非适应性完美主义，阻碍了自己去动手实践。<br />
+实际是可以一边练习，逐步去改进的。一边写一边重构，才应该是正确的练习方式。done is better than perfect.</p>
+
+<hr />
+
+<p>这个并行远程执行其实是实际应用中经常需要登录到多台机器上批量执行命令，之前也有挺多的实现方式的，比如shell脚本，python脚本，以及一些专门的部署工具如fabirc，ansible等<br />
+作为一个练习项目，目前仅做做基本的功能。It&rsquo;s just a start.<br />
+主要功能如下：
+- 命令行方式执行
+- 命令行可指定欲执行的命令，如shell指令
+- 可从文件中读取批量命令执行
+- 可配置多个目标机器
+- ssh方式登录
+- (options)目标机器存储在配置文件中，配置文件格式使用<a href="http://segmentfault.com/a/1190000000477752">TOML</a>？</p>
+
+<hr />
+
+<p>参考：
+1. TOML介绍。<a href="http://segmentfault.com/a/1190000000477752">http://segmentfault.com/a/1190000000477752</a></p>
+
+			</section>
+		</article>
+	</main>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-link">
+			<a href="mailto:loveehoc@gmail.com" target="_blank">Email</a>
+			
+			
+			<a href="https://github.com/ehocchen/" target="_blank">GitHub</a>
+			
+		</div>
+		<div class="copyright">Copyright &copy; ehocchen All rights reserved.</div>
+	</footer>
+
+</div>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>
